@@ -10,7 +10,6 @@ const { Content } = Layout;
 
 let timer = null;
 
-/* Component from scratch */
 const App = memo(() => {
 	const dispatch = useDispatch();
 	const [showModal, setShowModal] = useState(false);
@@ -119,7 +118,7 @@ const App = memo(() => {
 
 	return (
 		<Layout>
-			<PageHeader title="Input Search"/>
+			<PageHeader title="Select box form scratch "/>
 			<Content>
 				<div id="dropdown" className="dropDownWrapper">
 					<div className="tagsContainer">{getTagsList()}</div>
