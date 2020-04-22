@@ -118,7 +118,7 @@ const App = memo(() => {
 
 	return (
 		<Layout>
-			<PageHeader title="Select box form scratch "/>
+			<PageHeader title="Select box from scratch "/>
 			<Content>
 				<div id="dropdown" className="dropDownWrapper">
 					<div className="tagsContainer">{getTagsList()}</div>
